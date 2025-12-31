@@ -1,0 +1,143 @@
+name: NeoForge Server - 雲端世界備份 (ZeroTier VPN)
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [FTB-Skies-2]
+
+jobs:
+  minecraft:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 檢出 repo 檔案
+        uses: actions/checkout@v4
+
+      - name: 安裝 Java 8
+        uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: 8
+
+      - name: 安裝 Python 和 gdown
+        run: |
+          sudo apt update
+          sudo apt install python3-pip unzip
+          pip install gdown
+
+      - name: 安裝 screen
+        run: sudo apt-get install -y screen
+
+      - name: 下載 world.zip（從 Google Drive）
+        env:
+          FILE_ID: ${{ secrets.GDRIVE_FILE_ID }}
+        run: |
+          echo "從 Google Drive 下載 world.zip..."
+          gdown --id $FILE_ID -O world.zip
+
+      - name: 解壓縮世界檔案（如有）
+        run: |
+          if [ -f world.zip ]; then
+            echo "Found world.zip, attempting unzip..."
+            unzip world.zip
+          else
+            echo "No world.zip found, skipping unzip."
+          fi
+
+      - name: 安裝 ZeroTier CLI
+        run: |
+          for i in {1..5}; do
+            echo "Attempt $i to install ZeroTier"
+            curl -f -s https://install.zerotier.com -o install.sh && break
+            echo "Retrying in 5 seconds..."
+            sleep 5
+          done
+
+          if [ ! -f install.sh ]; then
+            echo "❌ Failed to download install script from install.zerotier.com"
+            exit 1
+          fi
+
+          chmod +x install.sh
+          sudo ./install.sh
+
+
+
+      - name: 測試
+        run: sudo ss -nuap | grep 9993
+
+      - name: 顯示 ZeroTier IP
+        run: sudo zerotier-cli listnetworks
+
+      - name: 顯示 ZeroTier 身份檔案（只用一次）
+        run: |
+          echo "========== BEGIN identity.secret =========="
+          sudo cat /var/lib/zerotier-one/identity.secret
+          echo "=========== END identity.secret ==========="
+
+      - name: 啟動 Fabric Server（使用 screen）
+        run: |
+          screen -L -dmS minecraft java @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.216/unix_args.txt "$@"
+
+      - name: 顯示當前目錄與檔案
+        run: |
+          echo "目前目錄："
+          pwd
+          echo "檔案列表："
+          ls -al
+
+      - name: Minecraft Server 運行中（最多 5 小時或手動關閉）
+        run: |
+          echo "伺服器啟動成功，最多運行 5 小時。"
+          start_time=$(date +%s)
+          timeout=$((5 * 60 * 60)) # 5 小時
+          while screen -list | grep -q "minecraft"; do
+            now=$(date +%s)
+            elapsed=$((now - start_time))
+            if [ $elapsed -ge $timeout ]; then
+              echo "已達 5 小時，準備自動關閉伺服器..."
+              break
+            fi
+            sleep 10
+          done
+          echo "伺服器已關閉或到時，繼續下一步..."
+
+      - name: 優雅關閉 Minecraft 伺服器（如果還活著）
+        run: |
+          if screen -list | grep -q "minecraft"; then
+            echo "伺服器仍在運行，執行 stop 指令..."
+            screen -S minecraft -p 0 -X stuff "save-all flush$(printf \\r)"
+            screen -S minecraft -p 0 -X stuff "stop$(printf \\r)"
+            sleep 15
+          else
+            echo "伺服器已關閉，無需再次 stop。"
+          fi
+      - name: 壓縮世界
+        run: zip -r world.zip world
+
+      - name: 安裝 rclone
+        run: |
+          curl https://rclone.org/install.sh | sudo bash
+
+      - name: 寫入 rclone 設定檔（base64）
+        run: |
+          mkdir -p ~/.config/rclone
+          echo "${{ secrets.RCLONE_CONFIG_BASE64 }}" | base64 -d > ~/.config/rclone/rclone.conf
+
+      - name: 上傳 world.zip 到 Google Drive
+        run: |
+          echo "上傳 world.zip 到 Google Drive..."
+          rclone -vv copy world.zip gdrive:FTBSkieWorld \
+            --drive-chunk-size 64M \
+            --transfers=4 \
+            --retries=10 \
+            --low-level-retries=20 \
+            --progress
+
+      # 最後一個 step 觸發自己重新執行
+      - name: 觸發下一次執行
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}       # ✅ 內建 token，有觸發本 repo 的權限
+          repository: ${{ github.repository }}      # ✅ 自己的 repo
+          event-type: FTB-Skies-2
