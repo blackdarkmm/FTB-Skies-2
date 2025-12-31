@@ -61,7 +61,57 @@ jobs:
           chmod +x install.sh
           sudo ./install.sh
 
+      - name: 匯入 ZeroTier 身份檔案（保證固定 IP）
+        run: |
+          sudo systemctl stop zerotier-one
 
+          echo "${{ secrets.ZT_IDENTITY_SECRET }}" | sudo tee /var/lib/zerotier-one/identity.secret > /dev/null
+          sudo chmod 600 /var/lib/zerotier-one/identity.secret
+
+          sudo systemctl start zerotier-one
+
+          echo "等待 identity.public 生成..."
+          for i in {1..10}; do
+            if [ -f /var/lib/zerotier-one/identity.public ]; then
+              echo "✅ identity.public 已生成"
+              break
+            fi
+            echo "⏳ identity.public 尚未出現，等待 1 秒..."
+            sleep 1
+          done
+
+          echo "目前身份："
+          sudo cat /var/lib/zerotier-one/identity.public || echo "⚠️ 無法讀取身份"
+      - name: 加入 ZeroTier 網路
+        env:
+          ZT_NETWORK_ID: ${{ secrets.ZEROTIER_NETWORK_ID }}
+        run: |
+          echo "✅ 檢查 ZeroTier 服務是否啟動..."
+          for i in {1..10}; do
+            if sudo zerotier-cli info &>/dev/null; then
+              echo "✅ ZeroTier 服務已啟動"
+              break
+            fi
+            echo "⏳ 等待 ZeroTier 服務啟動... ($i/10)"
+            sleep 2
+          done
+
+          echo "🚀 嘗試加入 ZeroTier 網路：$ZT_NETWORK_ID"
+          sudo zerotier-cli join $ZT_NETWORK_ID || {
+            echo "❌ 加入 ZeroTier 網路失敗"
+            exit 1
+          }
+
+          echo "🕓 等待 ZeroTier 成功連線..."
+          for i in {1..20}; do
+            STATUS=$(sudo zerotier-cli listnetworks | grep $ZT_NETWORK_ID | awk '{print $5}')
+            echo "目前狀態：$STATUS"
+            if [[ "$STATUS" == "OK" ]]; then
+              echo "✅ 已成功加入 ZeroTier 網路"
+              break
+            fi
+            sleep 3
+          done
 
       - name: 測試
         run: sudo ss -nuap | grep 9993
@@ -75,9 +125,9 @@ jobs:
           sudo cat /var/lib/zerotier-one/identity.secret
           echo "=========== END identity.secret ==========="
 
-      - name: 啟動 Fabric Server（使用 screen）
+      - name: 啟動 NeoForge Server（使用 screen）
         run: |
-          screen -L -dmS minecraft java @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.216/unix_args.txt "$@"
+          screen -L -S minecraft java @user_jvm_args.txt @libraries/net/neoforged/neoforge/21.1.216/unix_args.txt nogui
 
       - name: 顯示當前目錄與檔案
         run: |
