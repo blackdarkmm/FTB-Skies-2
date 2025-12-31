@@ -35,6 +35,13 @@ jobs:
           echo "從 Google Drive 下載 world.zip..."
           gdown --id $FILE_ID -O world.zip
 
+      - name: 下載 L_Ender's Cataclysm 1.21.1-3.16.jar（從 Google Drive）
+        env:
+          FILE_ID: ${{ secrets.GDRIVE_FILE_ID2 }}
+        run: |
+          echo "從 Google Drive 下載 L_Ender's Cataclysm 1.21.1-3.16.jar..."
+          gdown --id $FILE_ID -O mod/L_Ender's Cataclysm 1.21.1-3.16.jar
+
       - name: 解壓縮世界檔案（如有）
         run: |
           if [ -f world.zip ]; then
