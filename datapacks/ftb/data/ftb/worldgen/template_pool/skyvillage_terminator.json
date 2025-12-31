@@ -1,0 +1,15 @@
+{
+  "name": "ftb:skyvillage_terminator",
+  "fallback": "minecraft:empty",
+  "elements": [
+  {
+      "weight": 1,
+      "element": {
+        "location": "ftb:bridge_4",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+  }

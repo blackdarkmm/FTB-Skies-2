@@ -1,0 +1,13 @@
+{
+  "entries": [
+    "ftb:flax_from_tall_grass",
+    "ftb:flax_from_grass",
+    "ftb:rice_from_tall_grass",
+    "ftb:rice_from_grass",
+    "ftb:coffee_from_tall_grass",
+    "ftb:coffee_from_grass",
+    "ftb:canola_from_tall_grass",
+    "ftb:canola_from_grass"
+  ],
+  "replace": false
+}

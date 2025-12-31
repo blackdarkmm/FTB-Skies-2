@@ -1,0 +1,23 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387313,
+    "separation": 16,
+    "spacing": 20,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "ftb:end_city",
+      "weight": 10
+    },
+    {
+      "structure": "ftb:end_castle",
+      "weight": 1
+    },
+    {
+      "structure": "cataclysm:acropolis",
+      "weight": 1
+    }
+  ]
+}

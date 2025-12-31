@@ -1,0 +1,18 @@
+{
+  "id": "ftbteambases:arcane_cottage",
+  "display": {
+    "title": "ftbteambases.base.arcane_cottage.title",
+    "description": "ftbteambases.base.arcane_cottage.desc",
+    "icon": "ftbteambases:islands/arcane_cottage",
+    "preview_image": "ftbteambases:textures/islands/arcane_cottage.png"
+  },
+  "construction": {
+    "pregen_template": "arcane_cottage",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true    
+  },
+  "spawn_offset": [0, 0, 0],
+  "dimension": {
+    "private": true
+  }
+}

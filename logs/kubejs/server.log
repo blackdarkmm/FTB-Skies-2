@@ -1,0 +1,225 @@
+[19:48:38] [INIT] KubeJS 2101.7.2-build.348; MC 2101 NeoForge
+[19:48:38] [INIT] Loaded plugins:
+[19:48:38] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[19:48:38] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[19:48:38] [INIT] - pro.mikey.kubeutils.kubejs.KubeUtilsPlugin
+[19:48:38] [INIT] - dev.ftb.mods.ftbstuffnthings.integration.kubejs.KubeJSIntegration
+[19:48:38] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[19:48:38] [INIT] - com.almostreliable.morejs.Plugin
+[19:48:38] [INIT] - com.buuz135.replication.integration.kubejs.ReplicationKubeJSPlugin
+[19:48:38] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[19:48:38] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[19:48:38] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[19:48:38] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[19:48:38] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[19:48:38] [INIT] - com.oierbravo.mechanicals.compat.kubejs.MechanicalsJsPlugin
+[19:48:38] [INIT] - dev.latvian.mods.kubejs.mekanism.MekanismKubeJSPlugin
+[19:48:38] [INIT] - com.oierbravo.createsifter.compat.kubejs.KubeJSCreatesifterPlugin
+[19:48:38] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
+[19:48:38] [INIT] - aztech.modern_industrialization.compat.kubejs.MIKubeJSPlugin
+[19:48:38] [INIT] - net.swedz.mi_tweaks.compat.kubejs.MITweaksKJSPlugin
+[19:48:38] [INIT] - dev.thestaticvoid.mi_sound_addon.compat.kubejs.MISoundAddonKubeJSPlugin
+[19:48:38] [INIT] - com.sammy.malum.compat.kubejs.MalumJSPlugin
+[19:48:38] [INFO] Loaded script server_scripts:common/recipes/actually_additions.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:common/recipes/occultism.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:common/recipes/oritech.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:common/recipes/productive_metalworks.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:common/recipes/enderio.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:common/recipes/functionalstorage.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:common/recipes/immersive_engineering.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:common/recipes/mekanism.js in 0.003 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/start.js in 0.016 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/utils.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/trades/after_diamond.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:tags/item.js in 0.007 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/trades/after_netherite.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/trades/_all.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/trades/after_cobble.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/trades/after_iron.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/trades/before_cobble.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/additions.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:common/registry/commands.js in 0.003 s
+[19:48:38] [INFO] Loaded script server_scripts:common/registry/music.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/actually_additions.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/villager_trades.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/ae2.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/pipez.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/ars_nouveau.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/chisel_reborn.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/cognition.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/comforts.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/enchanted.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/mods/ftb_materials.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/mods/functional_storage.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/mods/industrial_foregoing.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/enderio.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/ftb.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/glassential.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/handcrafted.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/immersive_engineering.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/industrial_foregoing.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/integrated_dynamics.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/justdirethings.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/justdynathings.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/mekanism.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/modern_industrialization.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/mysticalagriculture.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/occultism.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/oritech.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/pnc.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/roots.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/tempad.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/powah.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/farmers_delight.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/supplementaries.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/vanilla.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/immersive_garden_cloche.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/create.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/productive_bees.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/productive_metalworks.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/crop_to_seed.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/ftb_colors.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/ae2_cables.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/refined_storage.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/rftools.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/xycraft.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/ftb_stuff/dripper.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/ftb_stuff/recipes.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/_template.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/event_allay.js in 0.007 s
+[19:48:38] [INFO] server_scripts:common/ftb_event_system/events/event_apoth_boss.js#90: Loaded Java class 'dev.shadowsoffire.apotheosis.mobs.registries.InvaderRegistry'
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/event_apoth_boss.js in 0.028 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/event_creeper.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/event_fairy.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/event_frog.js in 0.001 s
+[19:48:38] [INFO] server_scripts:common/ftb_event_system/events/event_goat.js#2: Loaded Java class 'net.minecraft.world.entity.animal.goat.Goat'
+[19:48:38] [INFO] server_scripts:common/ftb_event_system/events/event_goat.js#3: Loaded Java class 'net.minecraft.world.entity.animal.goat.GoatAi'
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/event_goat.js in 0.032 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/event_llama.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/event_phantom.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/event_pyromancer.js in 0.001 s
+[19:48:38] [INFO] server_scripts:common/ftb_event_system/events/event_trader.js#1: Loaded Java class 'net.minecraft.world.item.trading.ItemCost'
+[19:48:38] [INFO] server_scripts:common/ftb_event_system/events/event_trader.js#2: Loaded Java class 'net.minecraft.world.item.trading.MerchantOffer'
+[19:48:38] [INFO] server_scripts:common/ftb_event_system/events/event_trader.js#5: Loaded Java class 'net.minecraft.world.entity.npc.VillagerTrades$ItemListing'
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events/event_trader.js in 0.009 s
+[19:48:38] [INFO] Loaded script server_scripts:recipes/mods/ftb_stuff/hammer.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/events_main.js in 0.003 s
+[19:48:38] [INFO] Loaded script server_scripts:common/ftb_event_system/commands.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/mods/actuallyadditions.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/mods/bucketlib.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/mods/create.js in 0.002 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/mods/create_shifting.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/mods/enderio.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/mods/extended_industrialization.js in 0.0 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/mods/geo_ore.js in 0.001 s
+[19:48:38] [INFO] Loaded script server_scripts:unification/mods/immersive_engineering.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/mods/integrated_dynamics.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/mods/malum.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/mods/mekanism.js in 0.002 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/mods/modern_industrialization.js in 0.004 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/mods/occultism.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/mods/oritech.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/mods/pneumaticcraft.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/mods/productive_metalworks.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/mods/roots.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/mods/xycraft.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/removals.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/tags.js in 0.193 s
+[19:48:39] [INFO] server_scripts:common/handlers/player.js#3: Loaded Java class 'net.sirgrantd.magic_coins.api.MagicCoinsApi'
+[19:48:39] [INFO] server_scripts:common/handlers/player.js#268: Loaded Java class 'snownee.lychee.util.action.PostActionTypes'
+[19:48:39] [INFO] server_scripts:common/handlers/player.js#325: Loaded Java class 'net.minecraft.world.phys.Vec3'
+[19:48:39] [INFO] Loaded script server_scripts:common/handlers/player.js in 0.049 s
+[19:48:39] [INFO] Loaded script server_scripts:common/ftb_event_system/event_functions.js in 0.002 s
+[19:48:39] [INFO] Loaded script server_scripts:common/ftb_event_system/events/trades/_template.js in 0.002 s
+[19:48:39] [INFO] server_scripts:common/ftb_event_system/Statistics.js#1: Loaded Java class 'net.minecraft.world.level.storage.LevelResource'
+[19:48:39] [INFO] Loaded script server_scripts:common/ftb_event_system/Statistics.js in 0.003 s
+[19:48:39] [INFO] server_scripts:common/handlers/entity.js#1: Loaded Java class 'net.minecraft.world.entity.LivingEntity'
+[19:48:39] [INFO] server_scripts:common/handlers/entity.js#55: Loaded Java class 'snownee.lychee.util.context.LycheeContext'
+[19:48:39] [INFO] server_scripts:common/handlers/entity.js#56: Loaded Java class 'snownee.lychee.util.context.LycheeContextKey'
+[19:48:39] [INFO] server_scripts:common/handlers/entity.js#57: Loaded Java class 'snownee.lychee.RecipeTypes'
+[19:48:39] [INFO] server_scripts:common/handlers/entity.js#58: Loaded Java class 'net.minecraft.world.entity.item.ItemEntity'
+[19:48:39] [INFO] Loaded script server_scripts:common/handlers/entity.js in 0.027 s
+[19:48:39] [INFO] Loaded script server_scripts:common/handlers/jei.js in 0.01 s
+[19:48:39] [INFO] Loaded script server_scripts:common/handlers/loot_lama.js in 0.002 s
+[19:48:39] [INFO] Loaded script server_scripts:common/recipes/create.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:common/recipes/integrateddynamics.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:common/recipes/modern_industrialization.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:loot/block_drops.js in 0.002 s
+[19:48:39] [INFO] Loaded script server_scripts:loot/blocks.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:loot/filter.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:loot/llama_loottable.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/custom_mi_multiblocks/advanced_coke_oven.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/custom_mi_multiblocks/deep_mob_binder.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/mods/create_sifting.js in 0.002 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/mods/emojiful.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/mods/farming_for_blockheads.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/mods/flux_networks.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/mods/ftb_stuff/jars.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/mods/ftb_stuff/strainer.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/mods/lychee.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/mods/malum.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/mods/pneumaticcraft.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/mods/vanillabackport.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:recipes/removals.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:tags/block.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:tags/entity.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:tags/fluid.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:tags/painting_variant.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:tags/worldgen.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/jei.js in 0.001 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/mods/farmersdelight.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/mods/silentgear.js in 0.0 s
+[19:48:39] [INFO] Loaded script server_scripts:unification/ore_gens.js in 0.001 s
+[19:48:39] [INFO] Loaded 135/135 KubeJS server scripts in 1.383 s with 0 errors and 0 warnings
+[19:48:45] [INFO] [minecraft:painting_variant] Found 3 tags, added 2 objects, removed 0 objects
+[19:48:45] [INFO] [minecraft:fluid] Found 238 tags, added 64 objects, removed 0 objects
+[19:48:45] [INFO] [minecraft:entity_type] Found 284 tags, added 112 objects, removed 0 objects
+[19:48:45] [INFO] [minecraft:worldgen/structure] Found 72 tags, added 3 objects, removed 0 objects
+[19:48:45] [INFO] [minecraft:block_entity_type] Found 6 tags, added 154 objects, removed 0 objects
+[19:48:45] [INFO] [minecraft:block] Found 1975 tags, added 1029 objects, removed 30 objects
+[19:48:46] [INFO] [minecraft:item] Found 3858 tags, added 2181 objects, removed 11 objects
+[19:48:53] [INFO] Processing recipes...
+[19:48:54] [INFO] Initializing recipe event...
+[19:48:54] [WARN] RecipeComponentValue.java#102: Failed to parse recipe 'silentgear:binding_template[minecraft:crafting_shapeless]' @ [ingredients][1]! Falling back to vanilla: Invalid component ingredients: ingredient[] - Component 'ingredient' is not allowed to be empty!
+[19:48:54] [WARN] RecipeComponentValue.java#102: Failed to parse recipe 'silentgear:graded_mat_test[minecraft:crafting_shaped]'! Falling back to vanilla: Invalid component key: pattern<optional_ingredient> - Component 'pattern<optional_ingredient>' is not allowed to be empty!
+[19:48:54] [WARN] RecipeComponentValue.java#102: Failed to parse recipe 'silentgear:grip_template[minecraft:crafting_shapeless]' @ [ingredients][2]! Falling back to vanilla: Invalid component ingredients: ingredient[] - Component 'ingredient' is not allowed to be empty!
+[19:48:55] [WARN] KubeRecipe.java#89: Failed to parse recipe 'simpleteleporters:enhanced_ender_shard_smithing[minecraft:smithing_transform]'! Falling back to vanilla: Failed to read required component 'template: ingredient' - java.lang.IllegalStateException: Failed to parse either. First: Item array cannot be empty, at least one item must be defined; Second: Not a JSON object: []
+[19:48:55] [WARN] RecipeComponentValue.java#102: Failed to parse recipe 'silentgear:grip_blueprint[minecraft:crafting_shapeless]' @ [ingredients][2]! Falling back to vanilla: Invalid component ingredients: ingredient[] - Component 'ingredient' is not allowed to be empty!
+[19:48:55] [WARN] RecipeComponentValue.java#102: Failed to parse recipe 'silentgear:binding_blueprint[minecraft:crafting_shapeless]' @ [ingredients][1]! Falling back to vanilla: Invalid component ingredients: ingredient[] - Component 'ingredient' is not allowed to be empty!
+[19:48:55] [INFO] Found 33,194 recipes (skipped 3,481) in 1.244 s
+[19:48:57] [INFO] server_scripts:unification/mods/modern_industrialization.js#982: [MI Macerator] Dust not found for dimensional_shard Skipping...
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/iron
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/gold
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/copper
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/aluminum
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/nickel
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/zinc
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/osmium
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/tin
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/lead
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/uranium
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/platinum
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/silver
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/antimony
+[19:48:57] [WARN] server_scripts:common/recipes/occultism.js#65: [Occultism Crushing] Skipped invalid item: c:dusts/iridium
+[19:48:57] [INFO] server_scripts:unification/mods/oritech.js#506: [Oritech Pulverizer] Dust not found for dimensional_shard Skipping...
+[19:48:59] [INFO] Posted recipe events in 3.887 s
+[19:48:59] [INFO] KubeJS modifications to recipe manager finished in 119.7 ms
+[19:49:01] [INFO] Added 4492 recipes, removed 2423 recipes, modified 133 recipes, with 0 failed recipes taking 7.834 s in total
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#7: Removing villager trade for profession 'minecraft:cartographer' for level 2: 64 minecraft:emerald -> 1 minecraft:filled_map
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#7: Removing villager trade for profession 'minecraft:cartographer' for level 1: 7 minecraft:emerald -> 1 minecraft:map
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#7: Removing villager trade for profession 'minecraft:cartographer' for level 3: 64 minecraft:emerald -> 1 minecraft:filled_map
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#7: Removing villager trade for profession 'minecraft:cartographer' for level 3: 64 minecraft:emerald -> 1 minecraft:filled_map
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#11: Removing villager trade for profession 'minecraft:cleric' for level 2: 3 roots:silver_ingot -> 1 minecraft:emerald
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#19: Removing villager trade for profession 'modern_industrialization:industrialist' for level 1: 4 minecraft:emerald -> 3 modern_industrialization:tin_ingot
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#25: Removing villager trade for profession 'modern_industrialization:industrialist' for level 1: 15 modern_industrialization:lignite_coal -> 1 minecraft:emerald
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#34: Removing villager trade for profession 'modern_industrialization:industrialist' for level 2: 4 minecraft:emerald -> 3 modern_industrialization:bronze_ingot
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#41: Removing villager trade for profession 'modern_industrialization:industrialist' for level 2: 4 minecraft:emerald -> 1 modern_industrialization:copper_gear
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#48: Removing villager trade for profession 'modern_industrialization:industrialist' for level 2: 4 modern_industrialization:sulfur_dust -> 1 minecraft:emerald
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#57: Removing villager trade for profession 'modern_industrialization:industrialist' for level 3: 6 minecraft:emerald -> 3 modern_industrialization:steel_ingot
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#64: Removing villager trade for profession 'modern_industrialization:industrialist' for level 3: 4 minecraft:emerald -> 1 modern_industrialization:bronze_gear
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#73: Removing villager trade for profession 'modern_industrialization:industrialist' for level 4: 5 minecraft:emerald -> 1 modern_industrialization:steel_gear
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#80: Removing villager trade for profession 'modern_industrialization:industrialist' for level 4: 6 minecraft:emerald -> 3 modern_industrialization:steel_plate
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#94: Removing villager trade for profession 'ae2:fluix_researcher' for level 2: 3 MaterialItem[charged_certus_quartz_crystal] -> 1 minecraft:emerald
+[19:49:05] [INFO] server_scripts:recipes/villager_trades.js#94: Removing villager trade for profession 'ae2:fluix_researcher' for level 2: 5 MaterialItem[silicon] -> 1 minecraft:emerald
+[19:49:13] [INFO] Server resource reload complete!

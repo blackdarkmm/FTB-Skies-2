@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "ftb:void_crystal_catalyst"
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "ftb:blocks/void_crystal_catalyst_block"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "ftb:burning_arena",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "ftb:burning_arena",
+        "processors": [],
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

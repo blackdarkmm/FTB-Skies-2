@@ -1,0 +1,19 @@
+{
+  "id": "ftbteambases:minimal",
+  "display": {
+    "title": "ftbteambases.base.minimal.title",
+    "description": "ftbteambases.base.minimal.desc",
+    "icon": "ftbteambases:islands/minimal",
+    "preview_image": "ftbteambases:textures/islands/minimal.png"
+  },
+  "construction": {
+    "pregen_template": "minimal",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true
+  },
+  "spawn_offset": [0, 0, 0],
+  "dimension": {
+    "dimension_type": "minecraft:overworld",
+    "private": true
+  }
+}

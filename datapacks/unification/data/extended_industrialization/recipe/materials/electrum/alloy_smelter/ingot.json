@@ -1,0 +1,37 @@
+{
+  "type": "extended_industrialization:alloy_smelter",
+  "duration": 200,
+  "eu": 4,
+  "item_inputs": [
+    {
+      "type": "neoforge:compound",
+      "amount": 1,
+      "children": [
+        {
+          "tag": "c:dusts/gold"
+        },
+        {
+          "tag": "c:ingots/gold"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "amount": 1,
+      "children": [
+        {
+          "tag": "c:dusts/silver"
+        },
+        {
+          "tag": "c:ingots/silver"
+        }
+      ]
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 2,
+      "item": "ftbmaterials:electrum_ingot"
+    }
+  ]
+}

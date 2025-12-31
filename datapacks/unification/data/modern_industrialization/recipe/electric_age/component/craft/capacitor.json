@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "wSw",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/gold"
+    },
+    "w": {
+      "item": "ftbmaterials:copper_wire"
+    },
+    "S": {
+      "item": "modern_industrialization:rubber_sheet"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:capacitor"
+  }
+}

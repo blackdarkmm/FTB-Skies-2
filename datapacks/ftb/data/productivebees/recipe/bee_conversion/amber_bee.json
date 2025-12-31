@@ -1,0 +1,9 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:resin_bee",
+  "result": "productivebees:amber",
+  "chance": 0.8,
+  "item": {
+    "item": "irons_jewelry:topaz"
+  }
+}

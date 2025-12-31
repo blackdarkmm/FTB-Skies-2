@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "ftb:redacted"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "silentgear:blueprints/binding",
+  "ingredients": [
+    {
+      "tag": "silentgear:blueprint_paper"
+    },
+    {
+      "tag": "c:strings"
+    },
+    {
+      "tag": "c:strings"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "silentgear:binding_blueprint"
+  }
+}

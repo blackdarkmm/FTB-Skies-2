@@ -1,0 +1,116 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "stevescarts:component_lump_of_galgador",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stevescarts:component_reinforced_metal",
+          "weight": 18,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stevescarts:component_blank_upgrade",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stevescarts:module_thermal_engine",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stevescarts:module_advanced_thermal_engine",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stevescarts:module_solar_engine",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stevescarts:module_tiny_coal_engine",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stevescarts:module_coal_engine",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sfm:cable",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stevescarts:component_solar_panel_component",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stevescarts:blockjunction",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rail",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 20
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stevescarts:blockadvdetector",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stevescarts:component_simple_pcb",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "S"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:gems/coal_coke"
+    },
+    "S": {
+      "tag": "c:rods/wooden"
+    }
+  },
+  "result": {
+    "id": "minecraft:torch",
+    "count": 8
+  }
+}

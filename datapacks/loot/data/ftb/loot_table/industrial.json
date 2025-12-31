@@ -1,0 +1,187 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:tin_cable",
+          "weight": 18,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:fluid_pipe",
+          "weight": 25,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enderio:conduit",
+          "weight": 11,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {"enderio:conduit": "enderio:item"}
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enderio:conduit",
+          "weight": 11,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {"enderio:conduit": "enderio:pressurized_fluid"}
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enderio:conduit",
+          "weight": 11,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {"enderio:conduit": "enderio:energy"}
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:motor",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:bronze_rod",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:bronze_gear",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:bronze_plate",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:item_pipe",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:copper_cable",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:bronze_bolt",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:tin_cable",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:analog_circuit_board",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:analog_circuit",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

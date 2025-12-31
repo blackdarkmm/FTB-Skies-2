@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.08,
+  "ingredient": {
+    "tag": "c:tiny_dusts/steel"
+  },
+  "result": {
+    "count": 1,
+    "id": "ftbmaterials:steel_nugget"
+  }
+}

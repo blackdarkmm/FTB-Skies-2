@@ -1,0 +1,5 @@
+#Trashing settings
+[trashing]
+	#The quantity of items the Trash Can destroys every cycle [Default: 1]
+	#Range: 1 ~ 64
+	itemTrashQuantity = 1

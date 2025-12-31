@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "c:gems/quartz"
+  },
+  "result": {
+    "id": "ftbmaterials:silicon_gem"
+  },
+  "experience": 0.5
+}

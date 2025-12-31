@@ -1,0 +1,48 @@
+
+{
+    "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fabric"
+    }
+  ],
+  "type": "createsifter:sifting",
+  "input": {
+    "tag": "minecraft:leaves"
+  },
+  "mesh": {
+    "count": 1,
+    "id": "createsifter:andesite_mesh"
+  },
+  "processingTime": 500,
+  "results": [
+    {
+      "chance": 0.1,
+      "id": "minecraft:oak_sapling"
+    },
+    {
+      "chance": 0.1,
+      "id": "minecraft:spruce_sapling"
+    },
+    {
+      "chance": 0.1,
+      "id": "minecraft:birch_sapling"
+    },
+    {
+      "chance": 0.1,
+      "id": "minecraft:jungle_sapling"
+    },
+    {
+      "chance": 0.1,
+      "id": "minecraft:acacia_sapling"
+    },
+    {
+      "chance": 0.1,
+      "id": "minecraft:dark_oak_sapling"
+    },
+    {
+      "chance": 0.1,
+      "id": "minecraft:cherry_sapling"
+    }
+  ]
+}

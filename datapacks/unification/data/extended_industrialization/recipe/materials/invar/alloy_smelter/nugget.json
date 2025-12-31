@@ -1,0 +1,37 @@
+{
+  "type": "extended_industrialization:alloy_smelter",
+  "duration": 200,
+  "eu": 4,
+  "item_inputs": [
+    {
+      "amount": 18,
+      "children": [
+        {
+          "tag": "c:tiny_dusts/iron"
+        },
+        {
+          "tag": "c:nuggets/iron"
+        }
+      ],
+      "type": "neoforge:compound"
+    },
+    {
+      "amount": 9,
+      "children": [
+        {
+          "tag": "c:tiny_dusts/nickel"
+        },
+        {
+          "tag": "c:nuggets/nickel"
+        }
+      ],
+      "type": "neoforge:compound"
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 3,
+      "item": "ftbmaterials:invar_ingot"
+    }
+  ]
+}

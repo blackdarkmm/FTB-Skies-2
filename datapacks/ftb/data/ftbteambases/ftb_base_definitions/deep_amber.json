@@ -1,0 +1,18 @@
+{
+  "id": "ftbteambases:deep_amber",
+  "display": {
+    "title": "ftbteambases.base.deep_amber.title",
+    "description": "ftbteambases.base.deep_amber.desc",
+    "icon": "ftbteambases:islands/deep_amber",
+    "preview_image": "ftbteambases:textures/islands/deep_amber.png"
+  },
+  "construction": {
+    "pregen_template": "deep_amber",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true    
+  },
+  "spawn_offset": [261, 0, 262],
+  "dimension": {
+    "private": true
+  }
+}

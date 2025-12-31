@@ -1,0 +1,123 @@
+{
+  "name": "ftb:skyvillage_houses",
+  "fallback": "ftb:skyvillage_terminator",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:librarian_1",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:house_1",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:weaponsmith_2",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:mason_1",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:alchemist_1",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:loom_1",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:cartographer_1",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:farm_1",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:farm_2",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:farm_3",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:fletcher_1",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:librarian_2",
+        "processors": "ftb:house_processor",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:weaponsmith_1",
+        "processors": "ftb:house_processor",
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

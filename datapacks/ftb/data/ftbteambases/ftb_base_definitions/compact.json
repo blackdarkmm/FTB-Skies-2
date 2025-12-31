@@ -1,0 +1,19 @@
+{
+  "id": "ftbteambases:compact",
+  "display": {
+    "title": "ftbteambases.base.compact.title",
+    "description": "ftbteambases.base.compact.desc",
+    "icon": "ftbteambases:islands/compact",
+    "preview_image": "ftbteambases:textures/islands/compact.png"
+  },
+  "construction": {
+    "pregen_template": "compact",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true
+  },
+  "spawn_offset": [0, 0, 0],
+  "dimension": {
+    "dimension_type": "minecraft:overworld",
+    "private": true
+  }
+}

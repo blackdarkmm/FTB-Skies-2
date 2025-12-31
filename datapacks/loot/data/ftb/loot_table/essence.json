@@ -1,0 +1,190 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "mysticalagriculture:inferium_essence",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": { "min": 4, "max": 12 },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:prudentium_essence",
+          "weight": 10,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:fertilized_essence",
+          "weight": 4,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:wood_essence",
+          "weight": 8,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:nether_essence",
+          "weight": 6,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:amethyst_essence",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:diamond_essence",
+          "weight": 2,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:emerald_essence",
+          "weight": 2,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:pig_essence",
+          "weight": 6,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:chicken_essence",
+          "weight": 6,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:cow_essence",
+          "weight": 6,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:sheep_essence",
+          "weight": 6,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:squid_essence",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:slime_essence",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:turtle_essence",
+          "weight": 4,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:armadillo_essence",
+          "weight": 4,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:rubber_essence",
+          "weight": 7,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:silicon_essence",
+          "weight": 7,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:sulfur_essence",
+          "weight": 7,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:glowstone_essence",
+          "weight": 6,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:zombie_essence",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:skeleton_essence",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:creeper_essence",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:spider_essence",
+          "weight": 5,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:rabbit_essence",
+          "weight": 6,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:experience_essence",
+          "weight": 3,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:enderman_essence",
+          "weight": 3,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:ghast_essence",
+          "weight": 2,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:fluix_essence",
+          "weight": 2,
+          "functions": [{ "function": "minecraft:set_count", "count": { "min": 4, "max": 12 } }]
+        }
+      ]
+    }
+  ]
+}

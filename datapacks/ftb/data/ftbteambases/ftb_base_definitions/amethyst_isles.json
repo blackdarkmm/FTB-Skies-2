@@ -1,0 +1,18 @@
+{
+  "id": "ftbteambases:amethyst_isles",
+  "display": {
+    "title": "ftbteambases.base.amethyst_isles.title",
+    "description": "ftbteambases.base.amethyst_isles.desc",
+    "icon": "ftbteambases:islands/amethyst_isles",
+    "preview_image": "ftbteambases:textures/islands/amethyst_isles.png"
+  },
+  "construction": {
+    "pregen_template": "amethyst_isles",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true    
+  },
+  "spawn_offset": [261, 0, 262],
+  "dimension": {
+    "private": true
+  }
+}

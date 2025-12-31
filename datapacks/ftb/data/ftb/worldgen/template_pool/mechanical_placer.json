@@ -1,0 +1,15 @@
+{
+  "name": "ftb:mechanical_placer",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "ftb:mechanical_placer",
+        "processors": [],
+		"projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

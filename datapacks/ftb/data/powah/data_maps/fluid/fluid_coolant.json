@@ -1,0 +1,23 @@
+{
+  "replace": true,
+  "values": {
+    "integrateddynamics:menril_resin": {
+      "temperature": -1
+    },
+    "integrateddynamics:liquid_chorus": {
+      "temperature": -2
+    },
+    "modern_industrialization:helium": {
+      "temperature": -4
+    },
+      "industrialforegoing:ether_gas":{
+        "temperature": -4
+      },    
+    "justdirethings:time_fluid_source": {
+      "temperature": -20
+    },
+    "modern_industrialization:cryofluid": {
+      "temperature": -25
+    }
+  }
+}

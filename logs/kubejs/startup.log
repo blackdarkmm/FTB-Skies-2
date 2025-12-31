@@ -1,0 +1,47 @@
+[19:48:15] [INIT] KubeJS 2101.7.2-build.348; MC 2101 NeoForge
+[19:48:15] [INIT] Loaded plugins:
+[19:48:15] [INIT] - dev.latvian.mods.kubejs.plugin.builtin.BuiltinKubeJSPlugin
+[19:48:15] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[19:48:15] [INIT] - pro.mikey.kubeutils.kubejs.KubeUtilsPlugin
+[19:48:15] [INIT] - dev.ftb.mods.ftbstuffnthings.integration.kubejs.KubeJSIntegration
+[19:48:15] [INIT] - snownee.lychee.compat.kubejs.LycheeKubeJSPlugin
+[19:48:15] [INIT] - com.almostreliable.morejs.Plugin
+[19:48:15] [INIT] - com.buuz135.replication.integration.kubejs.ReplicationKubeJSPlugin
+[19:48:15] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[19:48:15] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[19:48:15] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[19:48:15] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[19:48:15] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[19:48:15] [INIT] - com.oierbravo.mechanicals.compat.kubejs.MechanicalsJsPlugin
+[19:48:15] [INIT] - dev.latvian.mods.kubejs.mekanism.MekanismKubeJSPlugin
+[19:48:15] [INIT] - com.oierbravo.createsifter.compat.kubejs.KubeJSCreatesifterPlugin
+[19:48:15] [INIT] - com.glodblock.github.extendedae.xmod.kjs.KJSPlugin
+[19:48:15] [INIT] - aztech.modern_industrialization.compat.kubejs.MIKubeJSPlugin
+[19:48:15] [INIT] - net.swedz.mi_tweaks.compat.kubejs.MITweaksKJSPlugin
+[19:48:15] [INIT] - dev.thestaticvoid.mi_sound_addon.compat.kubejs.MISoundAddonKubeJSPlugin
+[19:48:15] [INIT] - com.sammy.malum.compat.kubejs.MalumJSPlugin
+[19:48:17] [INFO] startup_scripts:registry/slurry_registry.js#13: Loaded Java class 'mekanism.api.chemical.Chemical'
+[19:48:17] [INFO] startup_scripts:registry/slurry_registry.js#14: Loaded Java class 'mekanism.api.chemical.ChemicalBuilder'
+[19:48:17] [INFO] Loaded script startup_scripts:registry/slurry_registry.js in 0.241 s
+[19:48:17] [INFO] Loaded script startup_scripts:registry/blocks.js in 0.009 s
+[19:48:17] [INFO] Loaded script startup_scripts:registry/items.js in 0.013 s
+[19:48:17] [INFO] Loaded script startup_scripts:registry/sounds.js in 0.0 s
+[19:48:17] [INFO] Loaded script startup_scripts:globals.js in 0.004 s
+[19:48:17] [INFO] Loaded script startup_scripts:registry/itemmodifications.js in 0.002 s
+[19:48:17] [INFO] startup_scripts:registry/spells.js#3: Loaded Java class 'com.hollingsworth.arsnouveau.api.event.SpellCastEvent'
+[19:48:17] [INFO] startup_scripts:registry/spells.js#6: Loaded Java class 'io.redspace.ironsspellbooks.api.events.SpellOnCastEvent'
+[19:48:17] [INFO] startup_scripts:registry/spells.js#9: Loaded Java class 'net.puffish.skillsmod.SkillsMod'
+[19:48:18] [INFO] Loaded script startup_scripts:registry/spells.js in 0.094 s
+[19:48:18] [INFO] Loaded script startup_scripts:modification.js in 0.001 s
+[19:48:18] [INFO] startup_scripts:registry/custom_eye_of_ender.js#1: Loaded Java class 'net.minecraft.world.entity.projectile.EyeOfEnder'
+[19:48:18] [INFO] startup_scripts:registry/custom_eye_of_ender.js#2: Loaded Java class 'net.minecraft.core.registries.Registries'
+[19:48:18] [INFO] startup_scripts:registry/custom_eye_of_ender.js#3: Loaded Java class 'net.minecraft.tags.TagKey'
+[19:48:18] [INFO] startup_scripts:registry/custom_eye_of_ender.js#6: Loaded Java class 'net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerChangedDimensionEvent'
+[19:48:18] [INFO] Loaded script startup_scripts:registry/custom_eye_of_ender.js in 0.041 s
+[19:48:18] [INFO] Loaded script startup_scripts:registry/fluid_registry.js in 0.0 s
+[19:48:18] [INFO] Loaded script startup_scripts:registry/meshes.js in 0.002 s
+[19:48:18] [INFO] Loaded script startup_scripts:registry/multiblocks/advanced_coke_oven.js in 0.004 s
+[19:48:18] [INFO] Loaded script startup_scripts:registry/multiblocks/casing.js in 0.0 s
+[19:48:18] [INFO] Loaded script startup_scripts:registry/multiblocks/deep_mob_binder.js in 0.001 s
+[19:48:18] [INFO] Loaded 14/14 KubeJS startup scripts in 2.934 s with 0 errors and 0 warnings
+[19:48:18] [INFO] Validated 18 files in kubejs/data/ in 97ms

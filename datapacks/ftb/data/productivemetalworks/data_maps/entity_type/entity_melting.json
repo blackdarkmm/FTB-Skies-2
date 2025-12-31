@@ -1,0 +1,46 @@
+{
+  "values": {
+    "minecraft:player": {
+      "fluid": {
+        "amount": 10,
+        "id": "productivemetalworks:meat"
+      }
+    },
+    "minecraft:enderman": {
+      "fluid": {
+        "amount": 10,
+        "id": "productivemetalworks:molten_ender"
+      }
+    },
+    "minecraft:villager": {
+      "fluid": {
+        "amount": 10,
+        "id": "productivemetalworks:molten_emerald"
+      }
+    },    
+    "minecraft:witch": {
+      "fluid": {
+        "amount": 10,
+        "id": "productivemetalworks:molten_amethyst"
+      }
+    },        
+    "minecraft:bee": {
+      "fluid": {
+        "amount": 50,
+        "id": "productivebees:honey"
+      }
+    },
+    "minecraft:blaze": {
+      "fluid": {
+        "amount": 10,
+        "id": "productivemetalworks:molten_blaze"
+      }
+    },
+    "farmingforblockheads:merchant": {
+      "fluid": {
+        "amount": 2,
+        "id": "productivemetalworks:molten_emerald"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:fargo",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:crimson_sky_village",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:warped_sky_village",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:burning_arena",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:mechanical",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:bastion",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:nether_castle",
+      "weight": 1
+    },
+    {
+    "structure": "betterfortresses:fortress",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 23734816,
+    "spacing": 32,
+    "separation": 16,
+    "type": "minecraft:random_spread"
+  }  
+}

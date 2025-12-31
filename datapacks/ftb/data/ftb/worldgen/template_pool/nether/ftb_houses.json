@@ -1,0 +1,123 @@
+{
+  "name": "ftb:nether/ftb_houses",
+  "fallback": "ftb:nether/ftb_terminator",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/librarian_1",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/house_1",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/weaponsmith_2",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/mason_1",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/alchemist_1",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/loom_1",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/cartographer_1",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/farm_1",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/farm_2",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/farm_3",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/fletcher_1",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/librarian_2",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 50,
+      "element": {
+        "location": "ftb:nether/weaponsmith_1",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

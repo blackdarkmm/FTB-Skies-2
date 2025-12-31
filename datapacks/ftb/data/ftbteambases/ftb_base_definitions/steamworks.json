@@ -1,0 +1,18 @@
+{
+  "id": "ftbteambases:steamworks",
+  "display": {
+    "title": "ftbteambases.base.steamworks.title",
+    "description": "ftbteambases.base.steamworks.desc",
+    "icon": "ftbteambases:islands/steamworks",
+    "preview_image": "ftbteambases:textures/islands/steamworks.png"
+  },
+  "construction": {
+    "pregen_template": "steamworks",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true    
+  },
+ "spawn_offset": [270, 0, 247],
+  "dimension": {
+    "private": true
+  }
+}

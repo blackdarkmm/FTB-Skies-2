@@ -1,0 +1,18 @@
+{
+  "type": "modern_industrialization:unpacker",
+  "duration": 100,
+  "eu": 2,
+  "item_inputs": [
+    {
+      "item": "ftbmaterials:silicon_block",
+      "amount": 1
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 9,
+      "item": "ftbmaterials:silicon_ingot"
+    }
+  ],
+  "_kubejs_changed_marker": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ftbteambases:mystic_grove",
+  "display": {
+    "title": "ftbteambases.base.mystic_grove.title",
+    "description": "ftbteambases.base.mystic_grove.desc",
+    "icon": "ftbteambases:islands/mystic_grove",
+    "preview_image": "ftbteambases:textures/islands/mystic_grove.png"
+  },
+  "construction": {
+    "pregen_template": "mystic_grove",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true    
+  },
+"spawn_offset": [272, 0, 254],
+  "dimension": {
+    "private": true
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "oritech:refinery",
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "#c:oil"
+  },
+  "fluidOutputs": [
+    {
+      "amount": 500,
+      "fluid": "pneumaticcraft:diesel"
+    },
+    {
+      "amount": 500,
+      "fluid": "modern_industrialization:naphtha"
+    },
+    {
+      "amount": 500,
+      "fluid": "modern_industrialization:sulfuric_acid"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "oritech:clay_catalyst_beads"
+    }
+  ],
+  "results": [],
+  "time": 120
+}

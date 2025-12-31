@@ -1,0 +1,15 @@
+{
+  "name": "ftb:nether/ftb_terminator",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "ftb:nether/bridge_4",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

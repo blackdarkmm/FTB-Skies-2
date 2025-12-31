@@ -1,0 +1,107 @@
+{
+  "mysticalagriculture:aluminum": {
+    "enabled": true
+  },
+  "mysticalagriculture:saltpeter": {
+    "enabled": true,
+    "ingredient": {
+      "item": "ftbmaterials:niter_dust"
+    }
+  },
+  "mysticalagriculture:apatite": {
+    "enabled": false
+  },
+  "mysticalagriculture:brass": {
+    "enabled": false
+  },
+  "mysticalagriculture:bronze": {
+    "enabled": false
+  },  
+  "mysticalagriculture:graphite": {
+    "enabled": false
+  },
+  "mysticalagriculture:redstone_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:conductive_alloy": {
+    "enabled": true
+  },
+  "mysticalagriculture:steel": {
+    "enabled": true
+  },
+  "mysticalagriculture:constantan": {
+    "enabled": true
+  },
+  "mysticalagriculture:electrum": {
+    "enabled": false
+  },
+  "mysticalagriculture:invar": {
+    "enabled": false
+  },
+  "mysticalagriculture:ruby": {
+    "enabled": false
+  },
+  "mysticalagriculture:sapphire": {
+    "enabled": false
+  },  
+  "mysticalagriculture:peridot": {
+    "enabled": false
+  },  
+  "mysticalagriculture:dark_steel": {
+    "enabled": false
+  },  
+  "mysticalagriculture:pulsating_alloy": {
+    "enabled": false
+  },  
+  "mysticalagriculture:energetic_alloy": {
+    "enabled": false
+  },  
+  "mysticalagriculture:refined_glowstone": {
+    "enabled": false
+  },  
+  "mysticalagriculture:refined_obsidian": {
+    "enabled": false
+  },  
+  "mysticalagriculture:compressed_iron": {
+    "enabled": true
+  },  
+  "mysticalagriculture:fluix": {
+    "enabled": true
+  },  
+  "mysticalagriculture:energized_steel": {
+    "enabled": false
+  },  
+  "mysticalagriculture:blazing_crystal": {
+    "enabled": false
+  },
+  "mysticalagriculture:vibrant_alloy": {
+    "enabled": false
+  },
+  "mysticalagriculture:end_steel": {
+    "enabled": false
+  },
+  "mysticalagriculture:niotic_crystal": {
+    "enabled": false
+  },
+  "mysticalagriculture:spirited_crystal": {
+    "enabled": false
+  },
+  "mysticalagradditions:nitro_crystal": {
+    "enabled": false
+  },
+  "mysticalagriculture:certus_quartz": {
+    "ingredient": {
+      "item": "ae2:certus_quartz_crystal"
+    }
+  },
+  "mysticalagriculture:fluorite": {
+    "ingredient": {
+      "item": "ftbmaterials:fluorite_gem"
+    }
+  },
+  "mysticalagriculture:rubber": {
+    "ingredient": {
+      "item": "modern_industrialization:rubber_sheet"
+    }
+  }
+}

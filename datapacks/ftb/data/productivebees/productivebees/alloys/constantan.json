@@ -1,0 +1,14 @@
+{
+  "primaryColor": "#fc8669",
+  "secondaryColor": "#884739",
+  "flowerBlock": "ftbmaterials:constantan_block",
+  "conditions": [
+    {
+      "value": {
+        "tag": "c:storage_blocks/constantan",
+        "type": "neoforge:tag_empty"
+      },
+      "type": "neoforge:not"
+    }
+  ]
+}

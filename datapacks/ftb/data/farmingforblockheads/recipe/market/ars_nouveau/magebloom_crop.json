@@ -1,0 +1,14 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fabric"
+    }
+  ],
+  "type": "farmingforblockheads:market",
+  "category": "farmingforblockheads:seeds",
+  "preset": "ars_nouveau:seeds",
+  "result": {
+    "item": "ars_nouveau:magebloom_crop"
+  }
+}

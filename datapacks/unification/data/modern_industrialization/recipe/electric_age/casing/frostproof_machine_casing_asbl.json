@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AGA",
+    "AAA"
+  ],
+  "key": {
+    "A": {
+      "tag": "c:plates/industrial_aluminum"
+    },
+    "G": {
+      "tag": "c:gears/industrial_aluminum"
+    }
+  },
+  "result": {
+    "id": "modern_industrialization:frostproof_machine_casing"
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "ae2:fluix_sword",
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "justdirethings:blazegold_sword",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "justdirethings:ferricore_sword",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "mekanismtools:steel_sword",
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:inferium_sword",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:prudentium_sword",
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "ars_nouveau:enchanters_sword",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "roots:living_sword",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "roots:copper_sword",
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "name": "cognition:cognitive_sword",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "create:cardboard_sword",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "justdirethings:bow_ferricore",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:prudentium_bow",
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "mekanism:electric_bow",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:inferium_bow",
+          "weight": 9
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:inferium_crossbow",
+          "weight": 9
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:prudentium_crossbow",
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:tertium_bow",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "mysticalagriculture:tertium_crossbow",
+          "weight": 4
+        },
+        {
+          "type": "item",
+          "name": "mekanismtools:refined_obsidian_axe",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "roots:copper_axe",
+          "weight": 8
+        },
+        {
+          "type": "item",
+          "name": "roots:living_axe",
+          "weight": 6
+        },
+        {
+          "type": "item",
+          "name": "cognition:cognitive_axe",
+          "weight": 3
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": 30
+        }
+      ]
+    }
+  ]
+}

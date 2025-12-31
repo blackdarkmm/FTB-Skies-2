@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "silentgear:binding"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "silentgear:blueprints/binding",
+  "ingredients": [
+    {
+      "item": "silentgear:template_board"
+    },
+    {
+      "type": "silentgear:material",
+      "gear_type": "silentgear:tool",
+      "part_type": "silentgear:binding"
+    },
+    {
+      "type": "silentgear:material",
+      "gear_type": "silentgear:tool",
+      "part_type": "silentgear:binding"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "silentgear:binding_template"
+  }
+}

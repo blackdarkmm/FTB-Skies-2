@@ -1,0 +1,15 @@
+{
+  "name": "ftb:desert_wastes",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "ftb:desert_wastes",
+        "processors": [],
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

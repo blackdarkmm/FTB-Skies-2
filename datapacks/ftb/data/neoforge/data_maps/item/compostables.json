@@ -1,0 +1,10 @@
+{
+  "values": {
+    "minecraft:air": {
+      "chance": 0.0
+    },
+    "#minecraft:leaves": {
+      "chance": 0.3
+    }
+  }
+}

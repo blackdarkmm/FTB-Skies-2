@@ -1,0 +1,22 @@
+{
+  "type": "integrateddynamics:mechanical_squeezer",
+  "input_item": {
+    "item": "minecraft:blaze_rod"
+  },
+  "output_items": [
+    {
+      "item": {
+        "id": "minecraft:blaze_powder",
+        "count": 4
+      }
+    },
+    {
+      "item": {
+        "id": "ftbmaterials:sulfur_dust",
+        "count": 1
+      },
+      "chance": 0.5
+    }
+  ],
+  "duration": 40
+}

@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:bandage",
+            "weight": 30
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:pressure_tube",
+            "weight": 20,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:transfer_gadget",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:crop_support",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:reinforced_chest",
+            "weight": 12
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:inventory_upgrade",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:standby_upgrade",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:range_upgrade",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:security_upgrade",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:speed_upgrade",
+            "weight": 8,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "pneumaticcraft:volume_upgrade",
+            "weight": 5
+          }
+        ]
+      }
+    ]
+  }
+  

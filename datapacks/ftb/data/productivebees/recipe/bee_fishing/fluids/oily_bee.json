@@ -1,0 +1,20 @@
+{
+  "type": "productivebees:bee_fishing",
+  "bee": "productivebees:oily",
+  "biomes": [
+    "minecraft:ocean",
+    "minecraft:cold_ocean",
+    "minecraft:frozen_ocean",
+    "minecraft:lukewarm_ocean",
+    "minecraft:warm_ocean",
+    "minecraft:river",
+    "minecraft:frozen_river"
+  ],
+  "chance": 0.05,
+  "neoforge:conditions": [
+    {
+      "type": "productivebees:bee_exists",
+      "bee": "productivebees:oily"
+    }
+  ]
+}

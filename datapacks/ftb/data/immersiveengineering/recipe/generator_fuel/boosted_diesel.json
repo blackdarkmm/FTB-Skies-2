@@ -1,0 +1,11 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "modern_industrialization"
+    }
+  ],
+  "type": "immersiveengineering:generator_fuel",
+  "burnTime": 300,
+  "fluidTag": "c:boosted_diesel"
+}

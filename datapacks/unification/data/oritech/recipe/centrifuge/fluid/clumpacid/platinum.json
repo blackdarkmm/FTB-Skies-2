@@ -1,0 +1,25 @@
+{
+  "type": "oritech:centrifuge_fluid",
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "modern_industrialization:sulfuric_acid"
+  },
+  "fluidOutputs": [
+    {
+      "amount": 250,
+      "fluid": "oritech:still_mineral_slurry"
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:clumps/platinum"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "id": "ftbmaterials:platinum_dust"
+    }
+  ],
+  "time": 450
+}

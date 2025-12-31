@@ -1,0 +1,37 @@
+{
+  "type": "extended_industrialization:alloy_smelter",
+  "duration": 200,
+  "eu": 4,
+  "item_inputs": [
+    {
+      "type": "neoforge:compound",
+      "amount": 1,
+      "children": [
+        {
+          "tag": "c:dusts/tin"
+        },
+        {
+          "tag": "c:ingots/tin"
+        }
+      ]
+    },
+    {
+      "type": "neoforge:compound",
+      "amount": 3,
+      "children": [
+        {
+          "tag": "c:dusts/copper"
+        },
+        {
+          "tag": "c:ingots/copper"
+        }
+      ]
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 4,
+      "item": "ftbmaterials:bronze_ingot"
+    }
+  ]
+}

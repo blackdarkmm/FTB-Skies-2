@@ -1,0 +1,133 @@
+{
+  "default_block": {
+    "Name": "minecraft:stone"
+  },
+  "default_fluid": {
+    "Name": "minecraft:water"
+  },
+  "sea_level": -4096,
+  "disable_mob_generation": false,
+  "aquifers_enabled": false,
+  "ore_veins_enabled": false,
+  "legacy_random_source": false,
+  "noise": {
+    "min_y": 0,
+    "height": 384,
+    "size_horizontal": 1,
+    "size_vertical": 2
+  },
+  "noise_router": {
+    "": "Change the xz scale to make biomes bigger / smaller. I have done 0.25 -> 0.5 for most of them to make them 1/2x as long",
+    "barrier": 0,
+    "fluid_level_floodedness": 0,
+    "fluid_level_spread": 0,
+    "lava": 0,
+    "vein_toggle": 0,
+    "vein_ridged": 0,
+    "vein_gap": 0,
+    "temperature": {
+      "type": "minecraft:flat_cache",
+      "argument": {
+        "type": "minecraft:shifted_noise",
+        "noise": "minecraft:temperature",
+        "xz_scale": 0.5,
+        "y_scale": 0,
+        "shift_x": "minecraft:shift_x",
+        "shift_y": 0,
+        "shift_z": "minecraft:shift_z"
+      }
+    },
+    "vegetation": {
+      "type": "minecraft:flat_cache",
+      "argument": {
+        "type": "minecraft:shifted_noise",
+        "noise": "minecraft:vegetation",
+        "xz_scale": 0.5,
+        "y_scale": 0,
+        "shift_x": "minecraft:shift_x",
+        "shift_y": 0,
+        "shift_z": "minecraft:shift_z"
+      }
+    },
+    "continents": {
+      "": "Splined and has a scale of 1 to make oceans smaller and more manageable",
+      "type": "minecraft:flat_cache",
+      "argument": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": {
+              "type": "minecraft:shifted_noise",
+              "noise": "minecraft:continentalness",
+              "shift_x": "minecraft:shift_x",
+              "shift_y": 0.0,
+              "shift_z": "minecraft:shift_z",
+              "xz_scale": 0.25,
+              "y_scale": 0.0
+            },
+          "points": [
+            {
+              "location": -1.05,
+              "value": -1.05,
+              "derivative": 1
+            },
+            {
+              "location": -0.75,
+              "value": -0.19,
+              "derivative": 1
+            },
+            {
+              "location": 1,
+              "value": 1,
+              "derivative": 1
+            }
+          ]
+        }
+      }
+    },
+    "erosion": {
+      "type": "minecraft:flat_cache",
+      "argument": {
+        "type": "minecraft:shifted_noise",
+        "noise": "minecraft:erosion",
+        "shift_x": "minecraft:shift_x",
+        "shift_y": 0.0,
+        "shift_z": "minecraft:shift_z",
+        "xz_scale": 0.25,
+        "y_scale": 0.0
+      }
+    },
+    "depth": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_value": 1.5,
+      "from_y": -64,
+      "to_value": -1.5,
+      "to_y": 320
+    },
+    "ridges": {
+      "type": "minecraft:flat_cache",
+      "argument": {
+        "type": "minecraft:shifted_noise",
+        "noise": "minecraft:ridge",
+        "shift_x": "minecraft:shift_x",
+        "shift_y": 0.0,
+        "shift_z": "minecraft:shift_z",
+        "xz_scale": 0.25,
+        "y_scale": 0.0
+      }
+    },
+    "initial_density_without_jaggedness": 0,
+    "final_density": 0
+  },
+  "spawn_target": [],
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": [
+      {
+        "type": "minecraft:block",
+        "result_state": {
+          "Name": "minecraft:air"
+        }
+      }
+    ]
+  }
+}

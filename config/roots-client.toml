@@ -1,0 +1,26 @@
+[debug]
+	#if true, will suppress all reputation changes from being display on the client
+	suppress_reputation_changes = true
+
+[particles]
+	#if true, translucent particles will be rendered with quads sorted to improve rendering and prevent overlapping translucent particles from disappearing
+	delayed_particles = true
+
+[overlays]
+	#if true, the aqua bubble overlay will be displayed in first person while the player has an active Aqua Bubble effect
+	aqua_bubble_overlay = true
+	#if true, the warning overlay will be displayed whenever a mob targets you while holding the Alertness charm (or equipped in a suitable Curios slot)
+	warning_overlay = true
+
+[light_drifter_overlays]
+	#a list of resourcelocations of gui layer elements that should be skipped while light drifter is active
+	gui_layer_skip = ["appleskin:hunger_restored", "minecraft:experience_bar", "minecraft:experience_level"]
+
+#options relating to particles
+[particle]
+	#if true, the custom particle shader used for some Roots particles will be disabled; please note that with Iris running, this option may have no effect as Iris disables custom shaders by default
+	disable_custom_particle_shader = false
+	#the opposite of `disable_custom_particle_shader` and will override that value: forces the custom particle shader to be loaded even if iris is loaded and would normally prevent it from being used
+	force_custom_particle_shader = false
+	#if true, all Roots particles will be disabled
+	disable_particles = false

@@ -1,0 +1,20 @@
+{
+  "replace": true,
+  "values": {
+    "#c:lava": {
+      "energy_produced": 500
+    },
+    "#c:molten_blaze": {
+      "energy_produced": 25000
+    },
+    "mekanism:superheated_sodium": {
+      "energy_produced": 25000
+    },
+    "oritech:still_molten_fluxite": {
+      "energy_produced": 25000
+    },
+    "modern_industrialization:helium_plasma": {
+      "energy_produced": 50000
+    }
+  }
+}

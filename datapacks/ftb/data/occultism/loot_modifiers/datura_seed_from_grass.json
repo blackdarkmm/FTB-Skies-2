@@ -1,0 +1,30 @@
+{
+  "type": "occultism:add_item",
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "fabric"
+    }
+  ],  
+  "conditions": [
+    {
+      "chance": 0.02,
+      "condition": "minecraft:random_chance"
+    },
+    {
+      "block": "minecraft:short_grass",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "items": "#c:tools/shear"
+        }
+      }
+    }
+  ],
+  "count": 1,
+  "item": "occultism:datura_seeds"
+}

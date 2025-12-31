@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pneumaticcraft:reinforced_chest_kit",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedbackpacks:upgrade_base",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedstorage:upgrade_base",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2things:disk_drive_1k",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mekanism:qio_drive_hyper_dense",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedstorage:basic_to_gold_tier_upgrade",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "functionalstorage:copper_upgrade",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:item",
+          "name": "functionalstorage:gold_upgrade",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "functionalstorage:diamond_upgrade",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedstorage:basic_to_iron_tier_upgrade",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sophisticatedstorage:basic_to_diamond_tier_upgrade",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

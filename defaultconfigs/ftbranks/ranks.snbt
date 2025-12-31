@@ -1,0 +1,23 @@
+{
+	member: {
+		name: "Member"
+		power: 1
+		condition: "always_active"
+	}
+	vip: {
+		name: "VIP"
+		power: 50
+		ftbranks.name_format: "&bVIP {name}"
+	}
+	admin: {
+		name: "Admin"
+		power: 1000
+		condition: "op"
+		ftbranks.name_format: "&2{name}"
+	}
+	ultimine_upgrade0: {
+		name: "ultimine_upgrade0"
+		power: 1
+		ftbultimine.max_blocks: 16.0d
+	}
+}

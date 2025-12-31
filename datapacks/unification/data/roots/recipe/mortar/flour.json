@@ -1,0 +1,16 @@
+{
+  "type": "roots:mortar",
+  "data": {
+    "ingredients": [
+      {
+        "tag": "c:crops/wheat"
+      }
+    ],
+    "priority": 0,
+    "result": {
+      "count": 1,
+      "id": "create:wheat_flour"
+    }
+  },
+  "times": 5
+}

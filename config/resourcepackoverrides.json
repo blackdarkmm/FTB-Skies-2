@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "failed_reloads_per_session": 5,
+  "default_overrides": {
+    "force_compatible": true
+  },
+  "default_packs": [
+    "moonlight:mods_dynamic_assets",
+    "fabric",
+    "mod_resources",
+    "file/Slightly-Improved-Font-1.1.5.zip"
+  ],
+  "pack_overrides": {
+    "skies": [
+      "file/Slightly-Improved-Font-1.1.5.zip"
+    ],
+    "$$skies": {
+      "fixed_position": false,
+      "default_position": "TOP",
+      "force_compatible": true,
+      "required": false,
+      "hidden": false
+    },
+    "default": [
+      "moonlight:mods_dynamic_assets",
+      "fabric",
+      "mod_resources"
+    ],
+    "$$default": {
+      "fixed_position": true,
+      "default_position": "BOTTOM",
+      "force_compatible": true,
+      "required": true,
+      "hidden": false
+    }
+  }
+}

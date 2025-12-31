@@ -1,0 +1,15 @@
+{
+  "name": "ftb:nether1/ftb",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "ftb:nether1/fountain",
+        "processors": "ftb:nether/house_processor",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

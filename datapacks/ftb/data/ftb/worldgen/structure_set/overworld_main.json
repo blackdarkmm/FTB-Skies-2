@@ -1,0 +1,106 @@
+{
+  "structures": [
+    {
+      "structure": "ftb:weeping_well",
+      "weight": 3
+    },
+    {
+      "structure": "ftb:arcane_library",
+      "weight": 1
+    },
+    {
+      "structure": "ftb:skyvillage",
+      "weight": 30
+    },
+    {
+      "structure": "ftb:mushroom_island",
+      "weight": 50
+    },
+    {
+      "structure": "ftb:apothecary_hut",
+      "weight": 15
+    },
+    {
+      "structure": "ftb:cherry",
+      "weight": 10
+    },
+    {
+      "structure": "ftb:cryomancer_tower",
+      "weight": 15
+    },
+    {
+      "structure": "ftb:malum_island",
+      "weight": 15
+    },
+    {
+      "structure": "ftb:terrible_island",
+      "weight": 3
+    },
+    {
+      "structure": "ftb:desert_wastes",
+      "weight": 15
+    },
+    {
+      "structure": "ftb:ruined_portal",
+      "weight": 3
+    },
+    {
+      "structure": "ftb:blighted_tree",
+      "weight": 3
+    },
+    {
+      "structure": "ftb:blazing_desert",
+      "weight": 15
+    },
+    {
+      "structure": "ftb:volcano",
+      "weight": 15
+    },
+    {
+      "structure": "ftb:purple_ars_island",
+      "weight": 3
+    },
+    {
+      "structure": "ftb:small_snowy_island",
+      "weight": 15
+    },
+    {
+      "structure": "ftb:cognitio_house",
+      "weight": 10
+    },
+    {
+      "structure": "ftb:pyromancer",
+      "weight": 15
+    },
+    {
+      "structure": "ftb:ars_tower",
+      "weight": 30
+    },
+    {
+      "structure": "ftb:pride_island",
+      "weight": 3
+    },
+    {
+      "structure": "ftb:birch_river",
+      "weight": 10
+    },
+    {
+      "structure": "ftb:water_orb",
+      "weight": 30
+    },
+    {
+      "structure": "ftb:magical_dungeon",
+      "weight": 30
+    },
+    {
+      "structure": "ftb:ice_castle",
+      "weight": 5
+    }
+  ],
+  "placement": {
+    "salt": 0,
+    "spacing": 24,
+    "separation": 12,
+    "type": "minecraft:random_spread"
+  }
+}

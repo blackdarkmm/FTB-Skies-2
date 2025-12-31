@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "redacted"
+    }
+  ],
+  "type": "pneumaticcraft:explosion_crafting",
+  "input": {
+    "count": 1,
+    "tag": "c:crops/wheat"
+  },
+  "loss_rate": 50,
+  "results": [
+    {
+      "count": 1,
+      "id": "pneumaticcraft:wheat_flour"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "neoforge:conditions": [
+    { "type": "neoforge:mod_loaded", "modid": "mekanism" }
+  ],
+  "type": "modern_industrialization:quarry",
+  "eu": 128,
+  "duration": 600,
+  "item_inputs": {
+    "item": "mekanism:atomic_disassembler",
+    "amount": 1,
+    "probability": 0.0
+  },
+  "item_outputs": [
+    {
+      "item": "ftbmaterials:osmium_stone_ore",
+      "amount": 1,
+      "probability": 0.5
+    },
+    {
+      "item": "minecraft:diamond_ore",
+      "amount": 1,
+      "probability": 0.25
+    },
+    {
+      "item": "ftbmaterials:lead_stone_ore",
+      "amount": 1,
+      "probability": 0.5
+    },
+    {
+      "item": "ftbmaterials:fluorite_stone_ore",
+      "amount": 1,
+      "probability": 0.7
+    },
+    {
+      "item": "minecraft:obsidian",
+      "amount": 1,
+      "probability": 0.5
+    },
+
+    {
+      "item": "ftbmaterials:uranium_stone_ore",
+      "amount": 1,
+      "probability": 0.1
+    }
+  ]
+}

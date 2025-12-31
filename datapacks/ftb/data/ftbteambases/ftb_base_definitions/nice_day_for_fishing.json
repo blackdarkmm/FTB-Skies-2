@@ -1,0 +1,18 @@
+{
+  "id": "ftbteambases:nice_day_for_fishing",
+  "display": {
+    "title": "ftbteambases.base.nice_day_for_fishing.title",
+    "description": "ftbteambases.base.nice_day_for_fishing.desc",
+    "icon": "ftbteambases:islands/nice_day_for_fishing",
+    "preview_image": "ftbteambases:textures/islands/nice_day_for_fishing.png"
+  },
+  "construction": {
+    "pregen_template": "nice_day_for_fishing",
+    "structure_sets": ["ftbteambases:default"],
+    "include_entities": true    
+  },
+"spawn_offset": [256, 0, 272],
+  "dimension": {
+    "private": true
+  }
+}

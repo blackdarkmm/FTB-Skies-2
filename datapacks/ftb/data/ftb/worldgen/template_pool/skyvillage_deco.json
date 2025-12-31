@@ -1,0 +1,15 @@
+{
+  "name": "ftb:skyvillage_deco",
+  "fallback": "minecraft:empty",
+  "elements": [
+  {
+      "weight": 40,
+      "element": {
+        "location": "ftb:deco_stone_1",
+        "processors": "minecraft:empty",
+    "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+  }

@@ -1,0 +1,34 @@
+[19:48:19.669] [INFO]: Loading config 'startup.json'.
+[19:48:33.609] [INFO]: Loaded plugins: almostunified:neoforge, almostunified:common, extended_industrialization:almost_unified, modern_industrialization:almost_unified
+[19:48:46.844] [WARN]: Reload detected. Reconstructing runtime.
+[19:48:46.848] [INFO]: Loading config 'debug.json'.
+[19:48:46.854] [WARN]: Config 'debug.json' not found. Creating default config.
+[19:48:46.859] [INFO]: Loading config 'placeholders.json'.
+[19:48:46.873] [INFO]: Loading config 'tags.json'.
+[19:48:46.913] [WARN]: The following mods are used in unification settings, but are not loaded: [forbidden_arcanus]
+[19:48:46.949] [ERROR]: Unification entry for item 'industrialforegoing:plastic' with tag '#c:plastics' is already part of tag '#c:plates/plastic'.
+[19:48:46.968] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/obsidian' -> [create:powdered_obsidian]
+[19:48:46.969] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_silver' -> [roots:raw_silver_block]
+[19:48:46.969] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/aluminum' -> [xycraft_machines:aluminum_dust]
+[19:48:46.969] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/diamond' -> [silentgear:diamond_shard]
+[19:48:46.969] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/copper' -> [xycraft_machines:copper_nugget]
+[19:48:46.969] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/aluminum' -> [xycraft_machines:aluminum_sheet]
+[19:48:46.971] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gears/invar' -> [modern_industrialization:invar_gear]
+[19:48:46.971] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:ingots/bronze' -> [silentgear:bronze_ingot]
+[19:48:46.971] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/gold' -> [xycraft_machines:gold_sheet]
+[19:48:46.971] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:gems/fluorite' -> [mekanism:fluorite_gem]
+[19:48:46.971] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/obsidian' -> [create:sturdy_sheet]
+[19:48:46.971] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:tiny_dusts/emerald' -> [modern_industrialization:emerald_tiny_dust]
+[19:48:46.972] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:tiny_dusts/bronze' -> [modern_industrialization:bronze_tiny_dust]
+[19:48:46.972] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:storage_blocks/raw_uranium' -> [oritech:raw_uranium_block]
+[19:48:46.972] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:plates/copper' -> [xycraft_machines:copper_sheet]
+[19:48:46.972] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:dusts/fluorite' -> [mekanism:dust_fluorite]
+[19:48:46.973] [INFO]: [AutoHiding] Hiding 1/2 items for tag '#c:nuggets/stainless_steel' -> [modern_industrialization:stainless_steel_nugget]
+[19:48:52.463] [INFO]: Loading config 'duplicates.json'.
+[19:48:52.472] [INFO]: Recipe count: 36616
+[19:48:52.606] [INFO]: 33135 out of 36616 recipes were loaded for unification.
+[19:48:53.202] [INFO]: Recipe count afterwards: 36579 (done in 729.6 ms)
+[19:48:53.211] [INFO]: Loot table 'mekanism:blocks/fluorite_ore' was unified by: materials
+[19:48:53.213] [INFO]: Loot table 'mekanism:blocks/deepslate_fluorite_ore' was unified by: materials
+[19:48:53.214] [INFO]: Loot table 'roots:blocks/raw_silver_block' was unified by: materials
+[19:48:53.227] [INFO]: Loot table 'oritech:blocks/raw_uranium_block' was unified by: materials
